@@ -4,26 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIPTA DEB NATH</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="final.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-<!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css" rel="stylesheet"> -->
-<!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-utilities.min.css" rel="stylesheet"> -->
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
         integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 
 <body class="bg-dark">
 
@@ -31,8 +24,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
             <div class="container-fluid">
                 <div class="nav1">
-                    <a class="navbar-brand" href="#"><img class="project-img p-3"
-                            src="a.png"
+                    <a class="navbar-brand" href="#"><img class="project-img p-3" src="a.png"
                             style="width: 150px; height: auto;" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,8 +94,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 align-self-center p-5 ">
-                        <img src="b.jpg" class=" hl img-fluid" alt="Your Image p-4"
-                            style="width: 300px;">
+                        <img src="b.jpg" class=" hl img-fluid" alt="Your Image p-4" style="width: 300px;">
                     </div>
                 </div>
             </div>
@@ -112,7 +103,28 @@
         <section class="full bg-dark">
             <p class=" r2 text-info  fs-1 fw-bold p-3 ">My Recent Projects</p>
             <div class="border1 card bg-dark">
-                <img class="my-card1 card-img-top" src="final1.avif" alt="Card image cap">
+                <div class="slide-pic1 img-fluid" style="width: 650px; padding-top: 25px;">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="final1.avif" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="final2.avif" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
                 <div class="full1">
                     <div class="card1 card-body">
                         <h5 class=" fw-bold text-info">DevPort (Portfolio Website)</h5>
@@ -123,8 +135,8 @@
                     </div>
                     <div class="buttn1 ">
                         <div class="d gap-2">
-                        <a href="#hire" class="b1 small btn btn-info fs-6">Live Preview</a>
-                        <a href="#hire" class="b1 small btn btn-info fs-6">Source Code</a>
+                            <a href="#hire" class="b1 small btn btn-info fs-6">Live Previw</a>
+                            <a href="#hire" class="b1 small btn btn-info fs-6">Source Code</a>
                         </div>
                         <p class="t1 disabled text1 text-light " style="opacity: 0.5;">Last updated few mins ago</p>
                     </div>
@@ -132,7 +144,28 @@
             </div>
             <div class="c2">
                 <div class="border2 card bg-dark">
-                    <img class="my-card2 card-img-top" src="final2.avif" alt="Card image cap">
+                    <div class="slide-pic2 img-fluid" style="width: 650px; padding-top: 30px;">
+                        <div id="carouselProject1" class="carousel slide carousel-fade">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="final2.avif" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="final1.avif" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
                     <div class="full2">
                         <div class="card2 card-body">
                             <h5 class=" fw-bold text-info">TaskMaster (Task Management System)</h5>
@@ -142,8 +175,8 @@
                         </div>
                         <div class="buttn2">
                             <div class="d2 gap-2">
-                            <a href="#LIve" class="b2 small btn btn-info fs-6">Live Preview</a>
-                            <a href="#source" class="b2 small btn btn-info fs-6">Source Code</a>
+                                <a href="#LIve" class="b2 small btn btn-info fs-6">Live Previw</a>
+                                <a href="#source" class="b2 small btn btn-info fs-6">Source Code</a>
                             </div>
                             <p class=" t2 disabled text2 text-light " style="opacity: 0.5;">Last updated few mins ago
                             </p>
@@ -152,60 +185,72 @@
                 </div>
             </div>
         </section>
-        <section class="exp bg-dark">
+        <section class="exp bg-dark d-flex">
             <div>
-                <h1 class="text-info fw-bold p-3">Expertise :</h1>
-                <div class="gap-6">
-                    <div class="p-2">
-                        <button type="button" class="btn btn-outline-info">React.js</button>
-                        <button type="button" class="btn btn-outline-info">JavaScript</button>
-                        <button type="button" class="btn btn-outline-info">Node.js</button>
-                        <button type="button" class="btn btn-outline-info">Firebase</button>
-                    </div>
-                    <div class="p-2">
-                        <button type="button" class="btn btn-outline-info">Express.js</button>
-                        <button type="button" class="btn btn-outline-info">HTML</button>
-                        <button type="button" class="btn btn-outline-info">CSS</button>
-                        <button type="button" class="btn btn-outline-info">Bootstrap</button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h1 class="text-info fw-bold p-3">Comfortable:</h1>
-                <div class="gap-6">
-                    <div class="p-2">
-                        <button type="button" class="btn btn-outline-info">SQL</button>
-                        <button type="button" class="btn btn-outline-info">Redux</button>
-                        <button type="button" class="btn btn-outline-info">Socket.io</button>
-                        <button type="button" class="btn btn-outline-info">AWS</button>
-                    </div>
-                    <div class="p-2">
-                        <button type="button" class="btn btn-outline-info">Docker</button>
-                        <button type="button" class="btn btn-outline-info">TypeScript</button>
-                        <button type="button" class="btn btn-outline-info">Next.js</button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h1 class="text-info fw-bold p-3">Familiar:</h1>
-                <div class="gap-6">
-                    <div class="p-2">
-                        <button type="button" class="btn btn-outline-info">C++</button>
-                        <button type="button" class="btn btn-outline-info">Python</button>
-                        <button type="button" class="btn btn-outline-info">Networking</button>
-                        <button type="button" class="btn btn-outline-info">Spring Boot</button>
+                <div>
+                    <h1 class="text-info fw-bold p-3">Expertise :</h1>
+                    <div class="gap-6">
+                        <div class="p-2">
+                            <button type="button" class="btn btn-outline-info">React.js</button>
+                            <button type="button" class="btn btn-outline-info">JavaScript</button>
+                            <button type="button" class="btn btn-outline-info">Node.js</button>
+                            <button type="button" class="btn btn-outline-info">Firebase</button>
+                        </div>
+                        <div class="p-2">
+                            <button type="button" class="btn btn-outline-info">Express.js</button>
+                            <button type="button" class="btn btn-outline-info">HTML</button>
+                            <button type="button" class="btn btn-outline-info">CSS</button>
+                            <button type="button" class="btn btn-outline-info">Bootstrap</button>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <h1 class="text-info fw-bold p-3">Tools:</h1>
+                    <h1 class="text-info fw-bold p-3">Comfortable:</h1>
                     <div class="gap-6">
                         <div class="p-2">
-                            <button type="button" class="btn btn-outline-info">VS Code</button>
-                            <button type="button" class="btn btn-outline-info">JIRA</button>
-                            <button type="button" class="btn btn-outline-info">Trello</button>
-                            <button type="button" class="btn btn-outline-info">Git</button>
+                            <button type="button" class="btn btn-outline-info">SQL</button>
+                            <button type="button" class="btn btn-outline-info">Redux</button>
+                            <button type="button" class="btn btn-outline-info">Socket.io</button>
+                            <button type="button" class="btn btn-outline-info">AWS</button>
+                        </div>
+                        <div class="p-2">
+                            <button type="button" class="btn btn-outline-info">Docker</button>
+                            <button type="button" class="btn btn-outline-info">TypeScript</button>
+                            <button type="button" class="btn btn-outline-info">Next.js</button>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <h1 class="text-info fw-bold p-3">Familiar:</h1>
+                    <div class="gap-6">
+                        <div class="p-2">
+                            <button type="button" class="btn btn-outline-info">C++</button>
+                            <button type="button" class="btn btn-outline-info">Python</button>
+                            <button type="button" class="btn btn-outline-info">Networking</button>
+                            <button type="button" class="btn btn-outline-info">Spring Boot</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-info fw-bold p-3">Tools:</h1>
+                        <div class="gap-6">
+                            <div class="p-2">
+                                <button type="button" class="btn btn-outline-info">VS Code</button>
+                                <button type="button" class="btn btn-outline-info">JIRA</button>
+                                <button type="button" class="btn btn-outline-info">Trello</button>
+                                <button type="button" class="btn btn-outline-info">Git</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uni col-lg-12">
+                    <h1 class="fs-1 text-info">My University</h1>
+                    <p class="fs-4 text-light">B.Sc in CSE</p>
+                    <p class="fs-4 text-light">Chittagong University of Engineering & Technology</p>
+                    <p class="fs-6 text-light">2022-2023</p>
+                </div>
+            </div>
         </section>
         <section class="bg-dark">
             <div class="container">
@@ -217,14 +262,14 @@
                                 <form action="">
                                     <div class="mb-3">
                                         <label for="nameLabel" class="form-label bg-dark text-light">Name</label>
-                                        <input type="text" required class="form-control bg-dark text-light" id="nameLabel"
-                                            placeholder="Enter your Name">
+                                        <input type="text" required class="form-control bg-dark text-light"
+                                            id="nameLabel" placeholder="Enter your Name">
                                     </div>
                                     <div class="mb-3">
                                         <label for="emailLabel" class="form-label bg-dark text-light">Email
                                             address</label>
-                                        <input type="email" required class="form-control bg-dark text-light" id="emailLabel"
-                                            placeholder="name@example.com">
+                                        <input type="email" required class="form-control bg-dark text-light"
+                                            id="emailLabel" placeholder="name@example.com">
                                     </div>
                                     <div class="mb-3">
                                         <label for="messageLabel" class="form-label bg-dark text-light">Write Your
@@ -243,7 +288,7 @@
 
     </main>
 
-    <footer class="bg-dark">
+    <footer class="bg-dark" >
         <div class=" foot bg-dark">
             <p class="text-info">Copyright © 2025 | dipta deb nath</p>
             <a href="#">Privacy</a> · <a href="#">Terms</a>
